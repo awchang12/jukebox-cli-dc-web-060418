@@ -26,7 +26,9 @@ def play(my_songs)
   if my_songs.include?(user_response)
     puts "playing #{user_response}"
   elsif user_response.to_i > 0 && user_response.to_i <= my_songs.length
-    puts "playing #{my_songs["
+    puts "playing #{my_songs[user_response.to_i - 1]"
+  else
+    puts "
 end
 
 def list(my_songs)
