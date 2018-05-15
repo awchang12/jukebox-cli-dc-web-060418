@@ -14,7 +14,8 @@
 
 def help
   #this method should be the same as in jukebox.rb
-  puts "- help: displays this help messa"
+  puts "- help: displays this help message
+  "
 end
 
 
