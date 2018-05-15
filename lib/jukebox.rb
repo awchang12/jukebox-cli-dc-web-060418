@@ -23,7 +23,7 @@ def play(my_songs)
   
   user_response = gets.chomp
   
-  
+  my_songs.include?
 end
 
 def list(my_songs)
