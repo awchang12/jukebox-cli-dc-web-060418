@@ -59,3 +59,5 @@ def run(my_songs)
       list(my_songs)
     when "help"
       help
+    when "exit"
+      
