@@ -25,10 +25,12 @@ def play(my_songs)
   
   if my_songs.include?(user_response)
     puts "Playing #{user_response}"
+    
   elsif user_response.to_i > 0 && user_response.to_i <= my_songs.length
     puts "Playing #{my_songs[user_response.to_i - 1]}"
+    
   else
-    puts "Invalid input, please try again".
+    puts "Invalid input, please try again"
   end
 end
 
