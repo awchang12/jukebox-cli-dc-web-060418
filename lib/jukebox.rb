@@ -18,3 +18,6 @@ def help
   - exit : exits this program"
 end
 
+def list(my_songs)
+  songs.each_with_index do |
+end
