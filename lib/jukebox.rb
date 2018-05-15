@@ -45,4 +45,7 @@ def exit_jukebox
 end
 
 def run(my_songs)
+  help
+  command = ""
   
+  while command != "exit"
