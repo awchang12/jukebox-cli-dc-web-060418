@@ -49,3 +49,5 @@ def run(my_songs)
   command = ""
   
   while command != "exit"
+    puts "Please enter a command:"
+    
