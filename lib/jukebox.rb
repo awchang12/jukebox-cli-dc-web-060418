@@ -53,4 +53,5 @@ def run(my_songs)
     command = gets.chomp
     
     case command
-    
+    when "play"
+      
